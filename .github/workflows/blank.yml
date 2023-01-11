@@ -22,6 +22,6 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: newman run '.\trelloproject.postman_collection.json' --globa.var "TRELLO_API_KEY=${{secrets.TRELLO_API_KEY}}" --global.var "TRELLO_TOKEN=${{secrets.TRELLO_TOKEN}}"  --global.var "TRELLO_BASE-URL=${{secrets.TRELLO_BASE_URL}}" 
+        run: newman run '.\trelloproject.postman_collection.json' --global.var "TRELLO_API_KEY=${{secrets.TRELLO_API_KEY}}" --global.var "TRELLO_TOKEN=${{secrets.TRELLO_TOKEN}}"  --global.var "TRELLO_BASE-URL=${{secrets.TRELLO_BASE_URL}}" 
 
    
